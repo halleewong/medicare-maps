@@ -3,14 +3,17 @@
 
 ## Data Plan
 *Summarize data sources, data formats, and how to obtain or generate the data you will be using*
+The
 
 ## Implementation Plan
 *Overview of you plan. Are you starting from existing code? What skills from the course will be be using to complete your project? etc.*
 
+http://nifty.stanford.edu/2016/hou-zhang-denero-yelp-maps/maps/index.html
+
 ### External Libraries
-- Lib1
-- Lib2
-- ...
+- Dataset from Center for Medicare & Medicaid Services (CMS) of  https://data.cms.gov/Medicare/Inpatient-Prospective-Payment-System-IPPS-Provider/97k6-zzx3
+- Google Maps Geocoding API
+- US map/state map coordinates from lab?
 
 ### Milestones
 - Feature 1
