@@ -70,3 +70,17 @@ Example: To make a plot of US medicare reimbursement for DRG code 039 (file will
 $ python3 make_map.py 1 US 039 M
 
 Note: if the map comes up blank (no circles) it means the quota for queries with this API key has been reached
+
+
+# Feedback
+- **Functionality**: 10/10
+ * I was able to create the images, although one of the examples was missing a parameter (`$ python3 make_map.py MA 470 T` is missing an integer argument before MA)
+- **Challenge and Endurance**: 10/10
+- **Code Quality**: 10/10
+ * Great use of classes to logically organize your code
+ * Just remove some of the extra prints
+- **Final Product**: 10/10
+ * Excellent images, presentation, and writeup.
+ * I think your final writeup identified things that you can do to improve your project even more, but even without these features, your final product was excellent.
+   - For the circle scaling, you might be able to define your circle scales in terms of lats/longs, and then specify a lat/pixel scaling factor to size your images.
+
