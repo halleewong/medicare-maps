@@ -59,15 +59,15 @@ There are several possible variables for the map to visualize (possible paramete
 
 General format:
 
-$ python3 make_map.py <Number of states> <State abbrev. 1> ... <State abbrev. n> <DRG code> <parameter>
+`$ python3 make_map.py <Number of states> <State abbrev. 1> ... <State abbrev. n> <DRG code> <parameter>`
 
 Example: To make a plot of total reimbursement in MA hospitals for DRG code 470 (file will be automatically saved as "MA_039_T.png")
 
-$ python3 make_map.py 1 MA 470 T
+`$ python3 make_map.py 1 MA 470 T`
 
 Example: To make a plot of US medicare reimbursement for DRG code 039 (file will be automatically saved as "US_039_M.png")
 
-$ python3 make_map.py 1 US 039 M
+`$ python3 make_map.py 1 US 039 M`
 
 Note: if the map comes up blank (no circles) it means the quota for queries with this API key has been reached
 
