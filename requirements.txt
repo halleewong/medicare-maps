@@ -32,7 +32,7 @@ datashape==0.5.4
 decorator==4.4.0
 defusedxml==0.5.0
 dill==0.2.9
-distributed==1.27.0
+distributed==2021.10.0
 docutils==0.14
 entrypoints==0.3
 fastcache==1.0.2
